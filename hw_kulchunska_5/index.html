@@ -9,51 +9,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet">
 </head>
 <body>
+    <!-- HEADER -->
+
     <div class="header">
         <div class="container">
-            <div class="header_ineer">
-                <a class="header_logo_link" href="index.html">
-                    <img class="header_logo-img" src="img/logo.png" alt="#">
+            <div class="header__ineer">
+                <a class="header__logo_link" href="index.html">
+                    <img class="header__logo-img" src="img/logo.png" alt="#">
                 </a>
                     <ul class="header_menu">
-                        <li class="header_menu_item"><a href="#">Home</a></li>
-                        <li class="header_menu_item"><a href="#">About</a></li>
-                        <li class="header_menu_item"><a href="#">Blog</a></li>
-                        <li class="header_menu_item"><a href="#">Contact</a></li>
-                        </ul>  
-                        <li class="header_menu_item_sign"><a href="#">Sign in</a></li>
-                        <button class="header_sign_in">Sign up</button> 
-                        <!--Не получається зробити кнопку правильного розміру. Зменшила ширину, тоді логотип налазить на текст, а кнопка у правильному форматі. Збільшила ширину, то вже кнопка лагає. Сама себе запутала.Тому відправляю так Вам на розгляд.-->
-                    </div>
+                        <li class="header__menu_item"><a href="#">Home</a></li>
+                        <li class="header__menu_item"><a href="#">About</a></li>
+                        <li class="header__menu_item"><a href="#">Blog</a></li>
+                        <li class="header__menu_item"><a href="#">Contact</a></li>
+                          </ul>
+                        <a href="#" class="header__link_in">Sign In</a>
+                        <button class="header__sign_up">Sign up</button> 
+                        </div>
                 </div>
             </div>
-        </div>
-        <div class="hero">
-            <div class="container_j">
-                <div class="hero_inner">
-                    <p class="hero_title">
-                        Stay Productive &<br>Work Remotely
-                    </p>
-                    <p class="hero_text">
-                        The key to work-from-home success is to create an<br> 
-                        enviroment that allows you to focus on the tasks at hand.<br> Whether you are working from home for the first time.
-                    </p>
-                    
-                <button class="hero__btn-more">
-                    Learn More
-                </button>
-            </div>
-                <div class="img">
-                     <img src="img/Frame.png" alt="meditasion">
-                </div>
-                
-            </div>
-        </div>
-
-                
-    
+    <!-- CONTENT -->
+                <div class="hero__inner">
+                    <div class="hero__content">
+                        <p class="hero__text">Stay Productive & <br>
+                            Work Remotely</p>
+                                <p class="hero__title">
+                                    The key to work-from-home success is to create an<br>
+enviroment that allows you to focus on the tasks at hand.<br> Whether you are working from home for the first time.
+                                </p>
+                                <button class="learn_more">Learn more</button>
+                               </div> 
+                               <div class="hero__tittle_img">
+                            <img class="frame_img" src="img/Frame1.png">
+                        </div>        
+                        </div>
 </body>
 </html>
